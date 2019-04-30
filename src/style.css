@@ -1068,3 +1068,8 @@ div[aria-label="Hangouts"][role="complementary"] {
 .TD {
 	background: transparent !important;
 }
+
+/* Remove default background color behind category tabs */
+.aKh {
+	background: transparent !important;
+}
