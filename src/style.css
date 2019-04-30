@@ -1012,11 +1012,11 @@ header form input {
 
 /* Right side Hangouts */
 div[aria-label="Hangouts"][role="complementary"] {
-	background-color: rgb(242, 242, 242) !important;
+	/* background-color: rgb(242, 242, 242) !important; */
 }
 
 .nH.bkK.nn + .nH.nn {
-	/* background-color: #e5e5e5 !important; */
+	background-color: #e5e5e5 !important;
 }
 
 /* Subject padding in opened email */
@@ -1062,4 +1062,9 @@ div[aria-label="Hangouts"][role="complementary"] {
 /* Hide inline ads/promotions */
 .aKB {
 	display: none;
+}
+
+/* Remove default background color behind empty folder image */
+.TD {
+	background: transparent !important;
 }
